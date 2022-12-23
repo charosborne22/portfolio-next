@@ -30,7 +30,7 @@ export default function Contact() {
     }),
     // Submit form
     onSubmit: (values) => {
-      fetch("https://formsubmit.co/ajax/charlotte@charlotteosborne.ca", {
+      fetch("https://formsubmit.co/ajax/7e4e51b45963afe1ae5b877026d810c0", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
