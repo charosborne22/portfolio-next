@@ -24,9 +24,9 @@ export default function PrivacyPolicy() {
             <Link href="/" className="underline">
               https://charlotteosborne.ca/
             </Link>{" "}
-            (“we”, “us”, “our”) to describe how and why information may be
-            collected, used, and/or shared when you (user) use our services,
-            such as:
+            (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;) to describe how
+            and why information may be collected, used, and/or shared when you
+            (user) use our services, such as:
           </p>
           <ul className="ml-8 list-disc">
             <li>
@@ -137,8 +137,8 @@ export default function PrivacyPolicy() {
           <p>
             Cookies are set by Google Analytics and used to collect basic
             information about the user and their behaviour on the website.
-            Consent is given for analytic cookies when you click "Accept" on the
-            cookies popup.
+            Consent is given for analytic cookies when you click
+            &quot;Accept&quot; on the cookies popup.
           </p>
         </section>
         <section className="mb-6">
