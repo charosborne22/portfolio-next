@@ -20,7 +20,6 @@ export default function Banner({ darkMode, setDarkMode }: BannerProps) {
 
   const handleDarkMode = () => {
     setDarkMode(!darkMode);
-    console.log(!darkMode);
     localStorage.setItem("darkMode", String(!darkMode));
   };
 

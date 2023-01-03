@@ -3,11 +3,10 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useState, useEffect } from "react";
 
 export interface AnalyticsProps {
-  gAnalytics: boolean;
   setAnalytics: any;
 }
 
-export default function Cookies({ gAnalytics, setAnalytics }: AnalyticsProps) {
+export default function Cookies({ setAnalytics }: AnalyticsProps) {
   const [direction, setDirection] = useState("0");
   const [display, setDisplay] = useState(true);
 
